@@ -1,0 +1,19 @@
+#update path for model train
+NEW_F_CKPT_FIR_NAME: 'CodeInpy/model/TrueRandom512512_OrignalNotCompletenetTwo.pth（副本）'
+NEW_P_CKPT_FIR_NAME: 'CodeInpy/model/predictor_checkpoint_epoch-75.pth（副本）'
+NEW_C_CKPT_FIR_NAME: 'CodeInpy/model/corrector_checkpoint_epoch-75.pth（副本）'
+#Trained model path
+#Predictor and corrector train path
+FixedPath: '/content/drive/MyDrive/Colab Notebooks/DeepLearningFinalProject/Results/Result1/testIKC.pth'
+#P,F,C model read path
+DIR_PATH: '/content/drive/MyDrive/Colab Notebooks/DeepLearningFinalProject/'
+DATASET_DIR: 'IKC-master/dataset2/SuperResDT/Train/img256X256'
+F_CKPT_FIR_NAME: '/Results/Result1/RandomBigWidth512_OrignalNotCompletenetTwo.pth'
+P_CKPT_FIR_NAME: 'CodeInpy/final_model/predictor_checkpoint_epoch-75.pth（副本）'
+C_CKPT_FIR_NAME: 'CodeInpy/final_model/corrector_checkpoint_epoch-75.pth（副本）'
+#test
+HR_file_path: '/content/drive/MyDrive/Colab Notebooks/DeepLearningFinalProject/CodeInpy/Set5/HR'
+LR_file_path: '/content/drive/MyDrive/Colab Notebooks/DeepLearningFinalProject/CodeInpy/Set5/LR'
+#batchsize
+SFTMD_Batch_Size: 32
+ICK_Batch_Size: 32

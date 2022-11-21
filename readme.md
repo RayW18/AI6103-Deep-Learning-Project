@@ -46,3 +46,5 @@ If you want to test the data in our providing images, just run the code below. I
 ### Corrctor process
 ![](images/Corrector/butter.png)
 ![](images/Corrector/womensit.png)
+### PSNR & SSIM on test sets
+![](images/result.jpg)

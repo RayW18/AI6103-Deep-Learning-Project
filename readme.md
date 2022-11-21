@@ -15,26 +15,28 @@ For training: You can choose from [Flickr2K](http://cv.snu.ac.kr/research/EDSR/F
 For testing: You can choose from [Set5](https://uofi.box.com/shared/static/kfahv87nfe8ax910l85dksyl2q212voc.zip), [Set14](https://uofi.box.com/shared/static/igsnfieh4lz68l926l8xbklwsnnk8we9.zip)
 
 ## Pretrained Model
-You can download the models from ./checkpoints directory
+You can download the models from CodeInpy/model directory
+
+## 
 
 ## Train
-1. To train the SFTMD network, change the DIR in config.py to your own dataset diretory
+1. To train the SFTMD network, change the DIR_PATH in main.yml to your own dataset diretory
    ```
-   python train_SFTMD.py
+   python TrainSFTMD.py
    ```
-2. To train the Predictor and Corrector network, change the DIR in config.py in your own dataset directory
+2. To train the Predictor and Corrector network, change the DIR_PATH in main.yml in your own dataset directory
    ```
-   python train_IKC.py
+   python Train_IKC.py
    ```
 ## Test
-If you want to test the data in our providing images, just run the code below. If you want to test the data in other datasets, download and move them into the ./dataset directory.
-1. if you want to test on SFTMD, change the DIR in config.py into your own dataset diretory and run
+If you want to test the data in our providing images, just run the code below. If you want to test the data in other datasets, download and move them into the IKC-master/dataset2/SuperResDT/Train/img256X256/ directory.
+1. if you want to test on SFTMD, change the DIR_PATH in main.yml into your own dataset diretory and run
     ```
-    python test_SFTMD.py
+    python Test_SFTMD.py
     ```
-2. if you want to test on IKC, change the DIR in config.py into your own dataset diretory and run
+2. if you want to test on IKC, change the DIR_PATH in main.yml into your own dataset diretory and run
    ```
-   python test_IKC.py
+   python Test_IKC.py
    ```
 
 ## Results

@@ -21,10 +21,10 @@ CodeInpy
 |----model.py           # model architecture
 |----Test_IKC.py        # test IKC
 |----Test_SFTMD         # test SFTMD 
-|----TrainIKC           # IKC train
+|----TrainIKC           # train IKC
 |----TrainSFTMD         # train SFTMD
 images
-|----Correcor           # store images changes during corrector process
+|----Correcor           # store image changes during corrector process
 |----RealWorldImages    # store real world images before and after our IKC
 |----SyntheticImages    # store synthetic images before and after out IKC
 |----result             # PSNR and SSIM result

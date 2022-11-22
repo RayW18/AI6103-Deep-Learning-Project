@@ -6,14 +6,15 @@ NEW_C_CKPT_FIR_NAME: 'CodeInpy/model/retrain_C.pth'
 #Predictor and corrector train path
 FixedPath: '/content/drive/MyDrive/Colab Notebooks/DeepLearningFinalProject/Results/Result1/testIKC.pth'
 #P,F,C model read path
-DIR_PATH: '/content/drive/MyDrive/Colab Notebooks/DeepLearningFinalProject/'
+DIR_PATH: '/content/AI6103-Deep-Learning-Project/'
+#Please change the path for traing images to your own'
 DATASET_DIR: 'IKC-master/dataset2/SuperResDT/Train/img256X256'
 F_CKPT_FIR_NAME: 'CodeInpy/final_model/latest_F.pth'
 P_CKPT_FIR_NAME: 'CodeInpy/final_model/latest_P.pth'
 C_CKPT_FIR_NAME: 'CodeInpy/final_model/latest_C.pth'
 #test
-HR_file_path: '/content/drive/MyDrive/Colab Notebooks/DeepLearningFinalProject/CodeInpy/Set5/HR'
-LR_file_path: '/content/drive/MyDrive/Colab Notebooks/DeepLearningFinalProject/CodeInpy/Set5/LR'
+HR_file_path: '/content/AI6103-Deep-Learning-Project/CodeInpy/Set5/HR'
+LR_file_path: '/content/AI6103-Deep-Learning-Project/CodeInpy/Set5/LR'
 #batchsize
 SFTMD_Batch_Size: 32
 ICK_Batch_Size: 32

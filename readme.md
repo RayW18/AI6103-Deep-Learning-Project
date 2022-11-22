@@ -18,7 +18,7 @@ CodeInpy
 |----|----latest_F.pth  # SFTMD pretrained model
 |----|----latest_C.pth  # Corrector pretrained model
 |----model              # store the models you train
-|----Set5               # dataset example
+|----Set5               # dataset example (One sample image in set5)
 |----|----HR            # High Resolution image
 |----|----LR            # Low Resolution image
 |----AI6103_Group_Project_Report

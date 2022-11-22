@@ -4,7 +4,7 @@ Here is an implementation of ['Blind Super-Resolution With Iterative Kernel Corr
 High RAM GPU For Training
 ## Install
 ### run on the colab
-For a easier way to train and test model, you can open the CodeInpy/IKC.ipynb in colab and run the code as instructions there.
+For a easier way to train and test model, you can download the CodeInpy/IKC.ipynb, open in colab and run the code as instructions there.
 ### run on your own environment
 ```
 git clone https://github.com/RayW18/AI6103-Deep-Learning-Project.git

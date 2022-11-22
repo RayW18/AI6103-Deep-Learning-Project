@@ -4,7 +4,7 @@ Here is an implementation of ['Blind Super-Resolution With Iterative Kernel Corr
 High RAM GPU For Training
 ## Install
 ### run on the colab
-For a easier way to train and test model, you can download the CodeInpy/IKC.ipynb, open in colab and run the code as instructions there.
+For a easier way to train and test model, you can download the CodeInpy/IKC.ipynb, open in colab and run the code as instructions there. (you need to change to GPU runtime to run our code)
 ### run on your own environment
 ```
 git clone https://github.com/RayW18/AI6103-Deep-Learning-Project.git
@@ -58,7 +58,7 @@ You can download the models from CodeInpy/final_model directory
    python Train_IKC.py
    ```
 ## Test
-If you want to test the data in our providing images, just run the code below. If you want to test the data in other datasets, download and  change the HR_file_path and LR_file_path in the test section in main.yaml file.
+If you want to test the data in our providing images (we only provide one sample image in set5), just run the code below. If you want to test the data in other datasets, download and  change the HR_file_path and LR_file_path in the test section in main.yaml file.
 1. if you want to test on SFTMD, calculate the PSNR and SSIM with GroundTruth images, please run:
     ```
     python Test_SFTMD.py

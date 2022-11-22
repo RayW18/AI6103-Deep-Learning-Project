@@ -9,6 +9,7 @@ For a easier way to train and test model, you can open the CodeInpy/IKC.ipynb in
 ```
 git clone https://github.com/RayW18/AI6103-Deep-Learning-Project.git
 ```
+After that, you need to change the paths in main.yaml to your own path.
 ### Directory Structure
 ```
 CodeInpy

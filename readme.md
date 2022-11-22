@@ -3,7 +3,12 @@ Here is an implementation of ['Blind Super-Resolution With Iterative Kernel Corr
 ## Prerequirements
 High RAM GPU For Training
 ## Install
+### run on the colab
 For a easier way to train and test model, you can open the CodeInpy/IKC.ipynb in colab and run the code as instructions there.
+### run on your own environment
+```
+git clone https://github.com/RayW18/AI6103-Deep-Learning-Project.git
+```
 ### Directory Structure
 ```
 CodeInpy
@@ -12,6 +17,9 @@ CodeInpy
 |----|----latest_F.pth  # SFTMD pretrained model
 |----|----latest_C.pth  # Corrector pretrained model
 |----model              # store the models you train
+|----Set5               # dataset example
+|----|----HR            # High Resolution image
+|----|----LR            # Low Resolution image
 |----AI6103_Group_Project_Report
 |----dataset.py         # load dataset
 |----Functions.py       # functions used for out models
